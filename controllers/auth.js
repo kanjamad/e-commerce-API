@@ -124,3 +124,16 @@ router.post('/login', (req, res) => {
 });
 
 //------------------ POST Logout Route ---------------------
+router.post('/logout', (req, res) => {
+    const genericError = 'Something went wrong!!! Please try again';
+
+    // Delete the user's session
+    req.session.destroy(err => {
+        if (err) return res.json({error: err, message: genericError});
+    });
+    res.status(200).clearCookie('connect.sid', {
+        path: '/',
+    }).json({loggedOut: true});
+});
+
+module.exports = router;
