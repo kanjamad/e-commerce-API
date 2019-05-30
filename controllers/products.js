@@ -36,3 +36,6 @@ router.delete('/:id', (req, res) => {
         res.json({status: 200, message: 'Success', data: deletedProduct});
     });
 });
+
+
+module.exports = router;
