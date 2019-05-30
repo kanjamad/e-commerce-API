@@ -5,7 +5,7 @@ const router = express.Router();
 // Database
 const db = require('./models');
 
-// POST Signup Route
+//------------------- POST Signup Route ---------------------
 router.post('/signup', (req, res) => {
     const errors = [];
     console.log(req.body)
@@ -78,4 +78,49 @@ router.post('/signup', (req, res) => {
     });
 });
 
-// POST Login Route
+//------------------ POST Login Route ---------------------
+router.post('/login', (req, res) => {
+
+    // First make sure the user didn't submit an empty form
+    if (!req.body.email || !req.body.password){
+        return res.json({user: req.body, errors: [{message: 'Please enter your email and password'}]});
+    }
+
+    // FIND one User by email
+    db.User.findOne({email: req.body.email}, (err, foundUser) => {
+        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+
+        // If we didn't find a user, re-json the login page with error message
+        if (!foundUser){
+            return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
+        }
+
+        // If this line of code runs, it means we found the user
+        // Compare the password submitted by user login form with password from found user
+        bcrypt.compare(req.body.password, foundUser.password, (err, isMatch) => {
+            if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+
+            // If the passwords match, create a new session with loggedIn and currentUser properties (or any properties you want except the user password)
+            if (isMatch){
+                req.session.loggedIn = true;
+                req.session.currentUser = {
+                    id: foundUser._id,
+                    fullName: foundUser.fullName,
+                    email: foundUser.email,
+                }
+
+                // Redirect user to the dasboard
+                res.json({message: 'Logged in successfully', session: req.session});
+                
+                // return res.json({status: 200, message: 'Success})
+
+            } else {
+                
+                // If the passwords do not match, re-json the login page with error message
+                if (err) return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
+            }
+        });
+    });  
+});
+
+//------------------ POST Logout Route ---------------------
