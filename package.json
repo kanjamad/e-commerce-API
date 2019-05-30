@@ -1,0 +1,29 @@
+{
+  "name": "shopping-server",
+  "version": "1.0.0",
+  "description": "Back-end for final Project at GA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanjamad/e-commerce-API.git"
+  },
+  "author": "Kanjamad Bosel kanjamadbosel@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanjamad/e-commerce-API/issues"
+  },
+  "homepage": "https://github.com/kanjamad/e-commerce-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.1",
+    "helmet": "^3.18.0",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.1"
+  }
+}
