@@ -15,6 +15,11 @@ With backend code to organize.
 
 ![Logo](assets/tree.png "expree file tree")
 
+### Planning
+I use 4 tables to write my project ideal, draw wireframs, write entity relationship diagram (ERD).
+
+![Logo](assets/kanjamadBosel-project.png "expree file tree")
+
 ## Additional Resources
 1. <a href="http://expressjs.com/starter/installing.html" target="_blank">Starting an Express Project</a>
 2. <a href="http://expressjs.com/starter/hello-world.html" target="_blank">Express Hello World</a>
