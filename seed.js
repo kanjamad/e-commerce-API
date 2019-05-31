@@ -7,7 +7,7 @@ const usersData = [
     password:"1234",
     gender: "Female",
     joinDate:"1/22/2019",default:Date.now, 
-},
+    },
     {
     fullName: "Ervin Howell",
     email: "Shanna@melissa.tv",
@@ -15,7 +15,7 @@ const usersData = [
     gender: "Male",
     joinDate:"9/6/2018",default:Date.now,
     
-},
+    },
 
     {
     fullName: "Clementine Bauch",
@@ -24,7 +24,7 @@ const usersData = [
     gender: "Female",
     joinDate:"1/2/2019",default:Date.now,
     
-},
+    },
     {
     fullName: "Patricia Lebsack",
     email: "Julianne.OConner@kory.org",
@@ -32,7 +32,7 @@ const usersData = [
     gender: "Female",
     joinDate:"3/4/2019",default:Date.now,
     
-},
+    },
     {
     
     fullName: "Chelsey Dietrich",
@@ -41,7 +41,7 @@ const usersData = [
     gender: "Female",
     joinDate:"1/27/2019",default:Date.now,
     
-},
+    },
     {
     fullName: "Mrs. Dennis Schulist",
     email: "Karley_Dach@jasper.info",
@@ -49,7 +49,7 @@ const usersData = [
     gender: "Female",
     joinDate:"5/2/2017",default:Date.now,
     
-},
+    },
     {
     fullName: "Kurtis Weissnat",
     email: "Telly.Hoeger@billy.biz",
@@ -57,7 +57,7 @@ const usersData = [
     gender: "Male",
     joinDate:"11/2/2018",default:Date.now,
     
-},
+    },
     {
     fullName: "Nicholas Runolfsdottir V",
     email: "Sherwood@rosamond.me",
@@ -65,14 +65,14 @@ const usersData = [
     gender: "Male",
     joinDate:"12/2/2018",default:Date.now,
     
-},
+    },
     {
     fullName: "Glenna Reichert",
     email: "Chaim_McDermott@dana.io",
     password:"1234",
     gender: "Female",
     joinDate:"11/2/2017",default:Date.now,
-},
+    },
     {
     fullName: "Clementina DuBuque",
     email: "Rey.Padberg@karina.biz",
@@ -80,7 +80,55 @@ const usersData = [
     gender: "Female",
     joinDate:"8/2/2018",default:Date.now,
     
-},
+    },
+]
+
+const productsData = [
+    {
+        productName: "",
+        image: "",
+        price: "",
+        description: "",
+        color: "",
+        size: "",
+        add_date: "",
+    },
+    {
+        productName: "",
+        image: "",
+        price: "",
+        description: "",
+        color: "",
+        size: "",
+        add_date: "",
+    },
+    {
+        productName: "",
+        image: "",
+        price: "",
+        description: "",
+        color: "",
+        size: "",
+        add_date: "",
+    },
+    {
+        productName: "",
+        image: "",
+        price: "",
+        description: "",
+        color: "",
+        size: "",
+        add_date: "",
+    },
+    {
+        productName: "",
+        image: "",
+        price: "",
+        description: "",
+        color: "",
+        size: "",
+        add_date: "",
+    },
 ]
 
 
