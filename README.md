@@ -50,6 +50,7 @@ Wireframs for home page, order comfirmation form and my address page
 2. <a href="http://expressjs.com/starter/hello-world.html" target="_blank">Express Hello World</a>
 3. <a href="http://expressjs.com/starter/static-files.html" target="_blank">Express Static Files</a>
 4. <a href="http://expressjs.com/4x/api.html#res.render" target="_blank">Express res.render()</a>
-5. <a href="https://www.npmjs.com/package/helmet" target="_blank">helmet</a>
+5. <a href="https://www.npmjs.com/package/helmet" target="_blank">npm helmet</a>
 6. <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank">HTTP response status codes</a>
 6. <a href="https://jsonplaceholder.typicode.com/" target="_blank">JSON Placeholder</a>
+6. <a href="https://mongoosejs.com/docs/index.html" target="_blank">Mongoose</a>
