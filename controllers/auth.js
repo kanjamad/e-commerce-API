@@ -6,7 +6,7 @@ const router = express.Router();
 const db = require('../models');
 
 //------------------- POST Signup Route ---------------------
-router.post('/signup', (req, res) => {
+router.post('/signup', async (req, res) => {
     const errors = [];
     console.log(req.body)
 
@@ -30,24 +30,26 @@ router.post('/signup', (req, res) => {
     // Query database to see if email account already exists.
     // If return res with errors
     // Find one User by email
-    db.User.findOne({email: req.body.email}, (err, foundUser) => {
-        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
-
-        // If we didn't find a user, re-json the login page with error message
+    try {
+        const foundUser = await db.User.findOne({email: req.body.email});
         if (foundUser){
-            errors.push({message: 'Your passwords do not match'});
+            errors.push({message: 'Account already exists'});
         }
-    });
-
+    } catch(err) {
+        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+    }
+    
     // If there are any validation errors, Re-json signup page with error messages
     if (errors.length){
         return res.json({user: req.body, errors: errors});
     }
+    console.log('errors = ', errors)
 
     // Generate salt for additional password hash complexity
     bcrypt.genSalt(10, (err, salt)=> {
         if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
 
+    console.log('Creating User')
     // Hash user password from signup form
     bcrypt.hash(req.body.password, salt, (err, hash) => {
         if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
