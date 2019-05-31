@@ -116,6 +116,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -147,6 +148,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -178,6 +180,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -207,6 +210,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -220,6 +224,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -248,6 +253,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -282,6 +288,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -312,6 +319,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -344,6 +352,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc3",
         add_date: "3/2/2019",default:Date.now,
     },
     // Men
@@ -375,6 +384,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc2",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -404,6 +414,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc2",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -432,6 +443,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc2",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -461,6 +473,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc2",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -490,6 +503,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc2",
         add_date: "3/2/2019",default:Date.now,
     },
     // Kids
@@ -526,6 +540,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc4",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -559,6 +574,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc4",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -589,6 +605,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc4",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -619,6 +636,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc4",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -647,6 +665,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
+        Category_id: "5cf171ddba3790b1f50d2cc4",
         add_date: "3/2/2019",default:Date.now,
     },
 ]
@@ -754,6 +773,19 @@ const ordersData = [
     },
 ]
 
+const categoryData = [
+    {
+        men: "man",
+    },
+   { 
+       women: "women",
+    }, 
+    {
+        kids: "kids"
+    },
+
+]
+
 
 
 // --------------------- usersData -----------------------
@@ -794,6 +826,20 @@ db.Order.create(ordersData, (err, newOrders) => {
     if (err) console.log(err);
     console.log(newOrders);
     console.log(`Created ${newOrders.length} new orders successfully`);
+    process.exit();
+});
+});
+
+// --------------------- categoryData -----------------------
+db.Category.deleteMany((err, deletedCategory) => {
+    if (err) console.log(err);
+    console.log('Deleted categorys successfully');
+
+    // Create New Categorys
+db.Category.create(categoryData, (err, newCategorys) => {
+    if (err) console.log(err);
+    console.log(newCategorys);
+    console.log(`Created ${newCategorys.lenght} new category successfully`);
     process.exit();
 });
 });

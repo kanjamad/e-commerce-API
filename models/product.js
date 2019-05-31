@@ -8,7 +8,11 @@ const ProductSchema = new Schema({
     image3: String,
     price: String || Number,
     description: Object,
-    size: Object,
+    size: Object || Array,
+    Category_id: {
+        type: Schema.Types.ObjectId,
+        ref: "Category"
+    },
     add_date: {
         type: Date,
         default: Date.now
