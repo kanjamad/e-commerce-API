@@ -4,7 +4,7 @@ const db = require('../models');
 
 router.get('/', (req, res) => {
     db.Product.find({})
-        .populate('type')
+        .populate('category_id')
         .exec((err, allProducts) => {
         if (err) return res.status(500).json({status: 500, error: 'Something went wrong!!! Please try again'});
         res.json({status: 200, message: 'Success', data: allProducts});
@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
     db.Product.findById(req.params.id)
-        .populate('type')
+        .populate('category_id')
         .exec((err, foundProduct) => {
         if (err) return res.status(500).json({status: 500, error: 'Something went wrong!!! Please try again'});
         res.json({status: 200, message: 'Success', data: foundProduct});

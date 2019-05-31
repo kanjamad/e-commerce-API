@@ -5,11 +5,17 @@
 
 This app ....
 
-* [Link to project hosted on Heroku](https://name.herokuapp.com/)
+* [Link to project hosted on Heroku](https://kanjamadapishopping.herokuapp.com/)
 * [Link to project hosted on Github](https://github.com/kanjamad/e-commerce-API)
 * [Link to project hosted on trello](https://trello.com/b/tk3FQbjQ/final-project)
 
 ---
+
+## API route
+1.  <a href="https://kanjamadapishopping.herokuapp.com/api/users" target="_blank">/api/users</a>
+2.  <a href="https://kanjamadapishopping.herokuapp.com/api/products" target="_blank">/api/products</a>
+3.  <a href="https://kanjamadapishopping.herokuapp.com/api/orders" target="_blank">/api/orders</a>
+4.  <a href="https://kanjamadapishopping.herokuapp.com/api/category" target="_blank">/api/category</a>
 
 ### Express file tree
 With backend code to organize.
