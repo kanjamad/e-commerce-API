@@ -3,12 +3,10 @@ const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema({
     productName: String,
-    image1: String,
-    image2: String,
-    image3: String,
-    price: String || Number,
+    images: Array,
+    price: String,
     description: Object,
-    size: Object || Array,
+    size: Object,
     category_id: {
         type: Schema.Types.ObjectId,
         ref: "Category"
