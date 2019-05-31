@@ -777,8 +777,8 @@ const categoryData = [
     {
         men: "man",
     },
-   { 
-       women: "women",
+    { 
+        women: "women",
     }, 
     {
         kids: "kids"

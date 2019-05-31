@@ -3,14 +3,20 @@ const router = express.Router();
 const db = require('../models');
 
 router.get('/', (req, res) => {
-    db.Order.find({}, (err, allOrders) => {
+    db.Order.find({})
+        .populate('users')
+        .populate('products')
+        .exec((err, allOrders) => {
         if (err) return res.status(500).json({status: 500, error: 'Something went wrong!!! Please try again'});
         res.json({status: 200, message: 'Success', data: allOrders});
     });
 });
 
 router.get('/:id', (req, res) => {
-    db.Order.findById(req.params.id, (err, foundOrder) => {
+    db.Order.findById(req.params.id)
+        .populate('users')
+        .populate('products')
+        .exec((err, foundOrder) => {
         if (err) return res.status(500).json({status: 500, error: 'Something went wrong!!! Please try again'});
         res.json({status: 200, message: 'Success', data: foundOrder});
     });
