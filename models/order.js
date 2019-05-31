@@ -12,7 +12,7 @@ const OrderSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "User"
     },
-    address: String,
+    address: Object,
     order_date: {
         type: Date,
         default: Date.now

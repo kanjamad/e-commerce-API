@@ -652,6 +652,108 @@ const productsData = [
 ]
 
 
+const ordersData = [
+    {
+        product_id:"5cf0e558f8c92a9e500eab28",
+        price: "US$13.00",
+        quantiy: "1",
+        user_id: "5cf0e557f8c92a9e500eab0d",
+        address: {
+            street: "Kulas Light",
+            suite: "Apt. 556",
+            city: "Gwenborough",
+            zipcode: "92998-3874",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab29",
+        price: "US$27.00",
+        quantiy: "3",
+        user_id: "5cf0e558f8c92a9e500eab0e",
+        address: {
+            street: "Victor Plains",
+            suite: "Suite 879",
+            city: "Wisokyburgh",
+            zipcode: "90566-7771",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab20",
+        price: "US$15.00",
+        quantiy: "1",
+        user_id: "5cf0e558f8c92a9e500eab0f",
+        address: {
+            street: "Douglas Extension",
+            suite: "Suite 847",
+            city: "McKenziehaven",
+            zipcode: "59590-4157",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab1f",
+        price: "US$42.00",
+        quantiy: "2",
+        user_id: "5cf0e558f8c92a9e500eab10",
+        address: "",
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab1e",
+        price: "US$19.00",
+        quantiy: "1",
+        user_id: "5cf0e558f8c92a9e500eab11",
+        address: {
+            street: "Hoeger Mall",
+            suite: "Apt. 692",
+            city: "South Elvis",
+            zipcode: "53919-4257",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab19",
+        price: "US$30.00",
+        quantiy: "3",
+        user_id: "5cf0e558f8c92a9e500eab12",
+        address: {
+            street: "Skiles Walks",
+            suite: "Suite 351",
+            city: "Roscoeview",
+            zipcode: "33263",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab18",
+        price: "US$17.00",
+        quantiy: "1",
+        user_id: "5cf0e558f8c92a9e500eab13",
+        address: {
+            street: "Norberto Crossing",
+            suite: "Apt. 950",
+            city: "South Christy",
+            zipcode: "23505-1337",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+    {
+        product_id:"5cf0e558f8c92a9e500eab17",
+        price: "US$38.00",
+        quantiy: "2",
+        user_id: "5cf0e558f8c92a9e500eab14",
+        address: {
+            street: "Rex Trail",
+            suite: "Suite 280",
+            city: "Howemouth",
+            zipcode: "58804-1099",
+        },
+        order_date:  "3/2/2019",default:Date.now,
+    },
+]
+
 
 
 // --------------------- usersData -----------------------
@@ -679,5 +781,19 @@ db.Product.create(productsData, (err, newProducts) => {
     console.log(newProducts);
     console.log(`Created ${newProducts.length} new products successfully`);
     process.exit();
-})
-})
+});
+});
+
+// --------------------- ordersData -----------------------
+db.Order.deleteMany((err, deletedOrders) => {
+    if (err) console.log(err);
+    console.log('Deleted orders successfully');
+
+    // Create New Orders
+db.Order.create(ordersData, (err, newOrders) => {
+    if (err) console.log(err);
+    console.log(newOrders);
+    console.log(`Created ${newOrders.length} new orders successfully`);
+    process.exit();
+});
+});
