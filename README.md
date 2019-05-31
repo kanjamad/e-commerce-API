@@ -7,6 +7,7 @@ This app ....
 
 * [Link to project hosted on Heroku](https://name.herokuapp.com/)
 * [Link to project hosted on Github](https://github.com/kanjamad/e-commerce-API)
+* [Link to project hosted on trello](https://trello.com/b/tk3FQbjQ/final-project)
 
 ---
 
