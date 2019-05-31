@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const router = express.Router();
 
 // Database
-const db = require('./models');
+const db = require('../models');
 
 //------------------- POST Signup Route ---------------------
 router.post('/signup', (req, res) => {
@@ -17,10 +17,6 @@ router.post('/signup', (req, res) => {
 
     if (!req.body.email){
         errors.push({message: 'Please enter your email'});
-    }
-
-    if (!req.body.gender){
-        errors.push({message: 'Please enter your gender'});
     }
 
     if (!req.body.password){
@@ -60,7 +56,6 @@ router.post('/signup', (req, res) => {
         const userData = {
             fullName: req.body.fullName,
             email: req.body.email,
-            gender: req.body.gender,
             password: hash,
         }
 

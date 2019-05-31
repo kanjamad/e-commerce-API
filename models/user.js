@@ -14,7 +14,7 @@ const UserSchema = new Schema({
     },
     password: String,
     gender: String,
-    joinDate: {
+    join_date: {
         type: Date,
         default: Date.now
     }
