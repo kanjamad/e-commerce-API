@@ -3,11 +3,12 @@ const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema({
     productName: String,
-    image: String,
+    image1: String,
+    image2: String,
+    image3: String,
     price: String || Number,
-    description: String,
-    color: String,
-    size: String,
+    description: Object,
+    size: Object,
     add_date: {
         type: Date,
         default: Date.now

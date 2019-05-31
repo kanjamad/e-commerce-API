@@ -51,3 +51,4 @@ Wireframs for home page, order comfirmation form and my address page
 4. <a href="http://expressjs.com/4x/api.html#res.render" target="_blank">Express res.render()</a>
 5. <a href="https://www.npmjs.com/package/helmet" target="_blank">helmet</a>
 6. <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank">HTTP response status codes</a>
+6. <a href="https://jsonplaceholder.typicode.com/" target="_blank">JSON Placeholder</a>
