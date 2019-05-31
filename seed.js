@@ -285,10 +285,27 @@ const productsData = [
         add_date: "3/2/2019",default:Date.now,
     },
     {
-        productName: "",
-        image: "",
-        price: "",
-        description: "",
+        productName: "Sunflower Print Split Thigh Shirred Detail Maxi Jumpsuit",
+        image1: "https://img.ltwebstatic.com/images2_pi/2019/04/10/15548913421730178795_thumbnail_600x799.jpg",
+        image2: "https://img.ltwebstatic.com/images2_pi/2019/04/10/15548913391820620137_thumbnail_600x799.jpg",
+        image3: "https://img.ltwebstatic.com/images2_pi/2019/04/10/1554891341519892728_thumbnail_600x799.jpg",
+        price: "US$19.00",
+        description: {
+            Color:	"Multicolor",
+            Details:	"Split, Frill, Shirred",
+            Fabric:	"Fabric has no stretch",
+            Fit_Type:	"Regular",
+            Length:	"Maxi",
+            Composition:	"100% Rayon",
+            Neckline:	"Deep V Neck",
+            Pattern_Type:	"Floral",
+            Season:	"Summer",
+            Sleeve_Length:	"Sleeveless",
+            Style:	"Boho",
+            Type:	"Tank",
+            Waist_Type:	"High Waist",
+            Hem_Shaped:	"Wide Leg",
+        },
         size: {
             XS: 2,
             S: 4,
@@ -311,15 +328,15 @@ const productsData = [
             Composition: "100% Polyester",
             Neckline: "Sweetheart",
             Pattern: "Type:	Floral",
-            Season:	"Summer"
-            Silhouette:	"Fit and Flare"
+            Season:	"Summer",
+            Silhouette:	"Fit and Flare",
             Sleeve_Length: "Short Sleeve",
             Sleeve_Type: "Flounce Sleeve, Puff Sleeve",
             Style:	"Boho",
             Type: "A Line",
             Waist_Line:	"High Waist",
-            Clothing_Type:	"A"
-            Hem Shaped:	"Flared",
+            Clothing_Type:	"A",
+            Hem_Shaped:	"Flared",
         },
         size: {
             XS: 2,
@@ -332,14 +349,6 @@ const productsData = [
 ]
 
 
-const categoryData = [
-    {
-
-    },
-    {
-
-    },
-]
 
 
 // --------------------- usersData -----------------------
@@ -357,3 +366,15 @@ db.User.create(usersData, (err, newUsers) => {
 });
 
 // --------------------- productsData -----------------------
+db.Product.deleteMany((err, deletedProducts) => {
+    if (err) console.log(err);
+    console.log('Deleted products successfully');
+
+    // Create New Products
+db.Product.create(productsData, (err, newProducts) => {
+    if (err) console.log(err);
+    console.log(newProducts);
+    console.log(`Created ${newProducts.length} new products successfully`);
+    process.exit();
+})
+})
