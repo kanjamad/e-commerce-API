@@ -8,7 +8,7 @@ const ProductSchema = new Schema({
     description: String,
     color: String,
     size: String,
-    add_Date: {
+    add_date: {
         type: Date,
         default: Date.now
     }
