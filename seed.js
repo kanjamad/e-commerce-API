@@ -117,7 +117,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -150,7 +150,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -183,7 +183,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -214,21 +214,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
-        add_date: "3/2/2019",default:Date.now,
-    },
-    {
-        productName: "",
-        images: "",
-        price: "",
-        description: "",
-        size: {
-            XS: 2,
-            S: 4,
-            M: 6,
-            L: "8/10",
-        },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -258,7 +244,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -294,7 +280,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -326,7 +312,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -360,7 +346,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc90",
+        category_id: "5cf1e49d04fb682f338cb733",
         add_date: "3/2/2019",default:Date.now,
     },
     // Men
@@ -393,7 +379,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc8f",
+        category_id: "5cf1e49d04fb682f338cb732",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -424,7 +410,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc8f",
+        category_id: "5cf1e49d04fb682f338cb732",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -454,7 +440,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc8f",
+        category_id: "5cf1e49d04fb682f338cb732",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -485,7 +471,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc8f",
+        category_id: "5cf1e49d04fb682f338cb732",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -516,7 +502,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1b9bdafa171260e93fc8f",
+        category_id: "5cf1e49d04fb682f338cb732",
         add_date: "3/2/2019",default:Date.now,
     },
     // Kids
@@ -554,7 +540,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1b9bdafa171260e93fc91",
+        category_id: "5cf1e49d04fb682f338cb734",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -589,7 +575,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1b9bdafa171260e93fc91",
+        category_id: "5cf1e49d04fb682f338cb734",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -621,7 +607,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1b9bdafa171260e93fc91",
+        category_id: "5cf1e49d04fb682f338cb734",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -653,7 +639,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1b9bdafa171260e93fc91",
+        category_id: "5cf1e49d04fb682f338cb734",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -683,7 +669,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1b9bdafa171260e93fc91",
+        category_id: "5cf1e49d04fb682f338cb734",
         add_date: "3/2/2019",default:Date.now,
     },
 ]
@@ -691,10 +677,10 @@ const productsData = [
 
 const ordersData = [
     {
-        product_id:"5cf1b9bdafa171260e93fc92",
+        product_id:"5cf1bc9da135dc285d5513bb",
         price: "US$13.00",
         quantiy: "1",
-        user_id: "5cf1b9bdafa171260e93fc8c",
+        user_id: "5cf1bfd4e1acc02926dd65a6",
         address: {
             street: "Kulas Light",
             suite: "Apt. 556",
@@ -704,10 +690,10 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc93",
+        product_id:"5cf1bc9da135dc285d5513ba",
         price: "US$27.00",
         quantiy: "3",
-        user_id: "5cf1b9bdafa171260e93fc8b",
+        user_id: "5cf1bfd4e1acc02926dd65a7",
         address: {
             street: "Victor Plains",
             suite: "Suite 879",
@@ -717,10 +703,10 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc94",
+        product_id:"5cf1bc9da135dc285d5513b9",
         price: "US$15.00",
         quantiy: "1",
-        user_id: "5cf1b9bdafa171260e93fc8a",
+        user_id: "5cf1bfd4e1acc02926dd65a8",
         address: {
             street: "Douglas Extension",
             suite: "Suite 847",
@@ -730,18 +716,18 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc95",
+        product_id:"5cf1bc9da135dc285d5513b8",
         price: "US$42.00",
         quantiy: "2",
-        user_id: "5cf1b9bdafa171260e93fc89",
+        user_id: "5cf1bfd4e1acc02926dd65a9",
         address: "",
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc97",
+        product_id:"5cf1bc9da135dc285d5513b6",
         price: "US$19.00",
         quantiy: "1",
-        user_id: "5cf1b9bdafa171260e93fc88",
+        user_id: "5cf1bfd4e1acc02926dd65aa",
         address: {
             street: "Hoeger Mall",
             suite: "Apt. 692",
@@ -751,10 +737,10 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc98",
+        product_id:"5cf1bc9da135dc285d5513b5",
         price: "US$30.00",
         quantiy: "3",
-        user_id: "5cf1b9bdafa171260e93fc87",
+        user_id: "5cf1bfd4e1acc02926dd65ab",
         address: {
             street: "Skiles Walks",
             suite: "Suite 351",
@@ -764,10 +750,10 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc99",
+        product_id:"5cf1bc9da135dc285d5513b4",
         price: "US$17.00",
         quantiy: "1",
-        user_id: "5cf1b9bdafa171260e93fc86",
+        user_id: "5cf1bfd4e1acc02926dd65ac",
         address: {
             street: "Norberto Crossing",
             suite: "Apt. 950",
@@ -777,10 +763,10 @@ const ordersData = [
         order_date:  "3/2/2019",default:Date.now,
     },
     {
-        product_id:"5cf1b9bdafa171260e93fc9a",
+        product_id:"5cf1bc9da135dc285d5513b3",
         price: "US$38.00",
         quantiy: "2",
-        user_id: "5cf1b9bdafa171260e93fc85",
+        user_id: "5cf1bfd4e1acc02926dd65ad",
         address: {
             street: "Rex Trail",
             suite: "Suite 280",
@@ -806,7 +792,7 @@ const categoryData = [
 
 
 
-// --------------------- usersData -----------------------
+// // --------------------- usersData -----------------------
 db.User.deleteMany((err, deletedUsers) => {
     if (err) console.log(err);
     console.log('Deleted users successfully');
@@ -861,3 +847,4 @@ db.Category.create(categoryData, (err, newCategorys) => {
     process.exit();
 });
 });
+
