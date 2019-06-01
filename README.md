@@ -1,5 +1,5 @@
 
-<!-- ![Logo](assets/City_logo.png "Logo") -->
+![Logo](assets/logo.png "Logo")
 
 # AP Shopping online
 
