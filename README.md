@@ -16,6 +16,9 @@ This app ....
 2.  <a href="https://kanjamadapishopping.herokuapp.com/api/products" target="_blank">/api/products</a>
 3.  <a href="https://kanjamadapishopping.herokuapp.com/api/orders" target="_blank">/api/orders</a>
 4.  <a href="https://kanjamadapishopping.herokuapp.com/api/category" target="_blank">/api/category</a>
+5.  <a href="https://kanjamadapishopping.herokuapp.com/api/auth/signup" target="_blank">POST  /api/auth/signup</a>
+6.  <a href="https://kanjamadapishopping.herokuapp.com/api/auth/login" target="_blank"> POST /api/auth/login</a>
+7.  <a href="https://kanjamadapishopping.herokuapp.com/api/auth/logout" target="_blank"> POST /api/auth/logout</a>
 
 ### Express file tree
 With backend code to organize.
