@@ -93,6 +93,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574735393273404023_thumbnail_600x799.jpg",
         ],
         price: "US$19.00",
+        oldPrice: "US$35.00",
         description: { 
             Color:	"Multicolor",
             Details:	"Wrap, Zipper, Button Front",
@@ -127,6 +128,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/23/1556004706337689028_thumbnail_600x799.jpg",
         ],
         price: " US$17.00",
+        oldPrice: "US$29.00",
         description: {
             Belt:	"Yes",
             Color:	"White",
@@ -160,6 +162,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574795953090240605_thumbnail_600x799.jpg",
         ],
         price: "US$20.00",
+        oldPrice: "US$50.00",
         description: {
             Belt: "Yes",
             Color: "Pink, Pastel",
@@ -193,6 +196,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2018/11/23/15429632951582676694_thumbnail_600x799.jpg",
         ],
         price: "US$18.00",
+        oldPrice: "US$29.00",
         description: {
             Color:	"Black",
             Details:	"Pocket, Scallop, Zipper",
@@ -224,6 +228,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images/pi/201711/f7/15107155809974445619_thumbnail_600x.jpg",
         ],
         price: "US$18.00",
+        oldPrice: "US$40.00",
         description: {
             Color:	"Black and White",
             Details:	"Embroidery, Backless, Button, Colorblock, Pocket, Studded, Zipper",
@@ -254,6 +259,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/02/13/15500417781590907709_thumbnail_600x799.jpg",
         ],
         price: "US$19",
+        oldPrice: "US$50.00",
         description: {
             Color:	"Blue",
             Pattern_Type:	"Plain",
@@ -290,6 +296,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/10/1554891341519892728_thumbnail_600x799.jpg",
         ],
         price: "US$19.00",
+        oldPrice: "US$40.00",
         description: {
             Color:	"Multicolor",
             Details:	"Split, Frill, Shirred",
@@ -323,6 +330,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/09/15573894091428556919_thumbnail_600x799.jpg",
         ],
         price: "US$21.00",
+        oldPrice: "US$35.00",
         description: {
             Color:	"Blue",
             Fabric:	"Fabric has no stretch",
@@ -357,6 +365,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/17/15554803664235308493_thumbnail_600x799.jpg",
         ],
         price: "US$15.00",
+        oldPrice: "US$25.00",
         description: {
             Collar:	"Collar",
             Color:	"Multicolor",
@@ -389,6 +398,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/25/15561708083890843504_thumbnail_600x799.jpg",
         ],
         price: "US$15.00",
+        oldPrice: "US$35.00",
         description: {
             Collar:	"Collar",
             Color:	"Multicolor",
@@ -420,6 +430,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/03/14/15525431742796453464_thumbnail_600x799.jpg",
         ],
         price: "US$13.00",
+        oldPrice: "US$29.00",
         description: {
             Color:	"Black",
             Fabric:	"Fabric has some stretch",
@@ -450,6 +461,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/02/26/1551151886788101134_thumbnail_600x799.jpg",
         ],
         price: "US$27.00",
+        oldPrice: "US$39.00",
         description: {
             Closure_Type:	"Button Fly",
             Color:	"Blue",
@@ -481,6 +493,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/08/15546974322481776861_thumbnail_600x799.jpg",
         ],
         price: "US$26.00",
+        oldPrice: "US$49.00",
         description: {
             Closure_Type:	"Button Fly",
             Color:	"Black",
@@ -513,6 +526,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/30/15566088962996116912_thumbnail_600x799.jpg",
         ],
         price: "US$10.00",
+        oldPrice: "US$25.00",
         description: {
             Color:	"Pink",
             Details:	"Ruffle",
@@ -550,6 +564,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/18/1555565130998187229_thumbnail_600x799.jpg",
         ],
         price: "US$13.00",
+        oldPrice: "US$20.00",
         description: {
             Color:	"Green",
             Details:	"Ruffle",
@@ -585,6 +600,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/04/1554369662532144168_thumbnail_600x799.jpg",
         ],
         price: "US$11.00",
+        oldPrice: "US$30.00",
         description: {
             Color:	"Navy",
             Details:	"Colorblock, Button Front",
@@ -617,6 +633,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/1557736652342501241_thumbnail_600x799.jpg",
         ],
         price: "US$13.00",
+        oldPrice: "US$19.00",
         description: {
             Color:	"Blue",
             Details:	"Patched, Button",
@@ -649,6 +666,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/1557719609734135649_thumbnail_600x799.jpg",
         ],
         price: "US$9.00",
+        oldPrice: "US$20.00",
         description: {
             Color:	"Yellow",
             Fabric:	"Fabric has some stretch",
