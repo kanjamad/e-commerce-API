@@ -36,40 +36,43 @@ router.post('/signup', async (req, res) => {
             errors.push({message: 'Account already exists'});
         }
     } catch(err) {
-        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+        if (err) return res.render('auth/signup', {user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
     }
     
     // If there are any validation errors, Re-json signup page with error messages
     if (errors.length){
-        return res.json({user: req.body, errors: errors});
+        // return res.json({user: req.body, errors: errors});
+        return res.render('auth/signup',{user: req.body, errors: errors});
     }
     console.log('errors = ', errors)
 
     // Generate salt for additional password hash complexity
     bcrypt.genSalt(10, (err, salt)=> {
-        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+        if (err) return res.render('auth/signup', {user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
 
     console.log('Creating User')
     // Hash user password from signup form
     bcrypt.hash(req.body.password, salt, (err, hash) => {
-        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+        if (err) return res.render('auth/signup', {user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
 
         // Create an object to hold the new user information (with hashed password, not original password)
-        const userData = {
+        const newUser = {
             fullName: req.body.fullName,
             email: req.body.email,
             password: hash,
         }
 
         // Create a new User record in MongoDB from the newUser object above
-        db.User.create(userData, (err, newUser) => {
-            if (err) return res.json({ errors: [err]});
+        db.User.create(newUser, (err, newUser) => {
+            // if (err) return res.json({ errors: [err]});
+            if (err) return res.render('auth/signup',{ errors: [err]});
             
             // If new user was created successfully, redirect user to login page
             // We could also create the session here (just like the login route), then redirect to the dashboard instead
             // res.redirect('/login');
 
-            res.json({status: 200, message: 'Success', newUser})
+            // res.json({status: 200, message: 'Success', newUser})
+            res.redirect('/login');
         });
     });
     });
@@ -80,22 +83,22 @@ router.post('/login', (req, res) => {
 
     // First make sure the user didn't submit an empty form
     if (!req.body.email || !req.body.password){
-        return res.json({user: req.body, errors: [{message: 'Please enter your email and password'}]});
+        return res.render('auth/login', {user: req.body, errors: [{message: 'Please enter your email and password'}]});
     }
 
     // FIND one User by email
     db.User.findOne({email: req.body.email}, (err, foundUser) => {
-        if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+        if (err) return res.render('auth/login', {user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
 
         // If we didn't find a user, re-json the login page with error message
         if (!foundUser){
-            return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
+            return res.render('auth/login', {user: req.body, errors: [{message: 'email or password is incorrect'}]});
         }
 
         // If this line of code runs, it means we found the user
         // Compare the password submitted by user login form with password from found user
         bcrypt.compare(req.body.password, foundUser.password, (err, isMatch) => {
-            if (err) return res.json({user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
+            if (err) return res.render('auth/login', {user: req.body, errors: [{message: 'Something went wrong!!! Please try again'}]});
 
             // If the passwords match, create a new session with loggedIn and currentUser properties (or any properties you want except the user password)
             if (isMatch){
@@ -107,14 +110,14 @@ router.post('/login', (req, res) => {
                 }
 
                 // Redirect user to the dasboard
-                res.json({message: 'Logged in successfully', session: req.session});
-                
-                // return res.json({status: 200, message: 'Success})
+                    // res.json({message: 'Logged in successfully', session: req.session});
+                return res.redirect('/');
 
             } else {
                 
                 // If the passwords do not match, re-json the login page with error message
-                if (err) return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
+                if (err) return res.render('auth/login',{user: req.body, errors: [{message: 'email or password is incorrect'}]});
+                // if (err) return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
             }
         });
     });  
@@ -126,7 +129,7 @@ router.post('/logout', (req, res) => {
 
     // Delete the user's session
     req.session.destroy(err => {
-        if (err) return res.json({error: err, message: genericError});
+        if (err) return res.render('auth/login', {error: err, message: genericError});
     });
     res.status(200).clearCookie('connect.sid', {
         path: '/',
