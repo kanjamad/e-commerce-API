@@ -112,14 +112,14 @@ router.post('/login', (req, res) => {
                 }
 
                 // Redirect user to the dasboard
-                res.json({message: 'Logged in successfully', session: req.session});
+                return res.json({message: 'Logged in successfully', session: req.session});
                 
                 // return res.json({status: 200, message: 'Success})
 
             } else {
                 
                 // If the passwords do not match, re-json the login page with error message
-                if (err) return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
+                return res.json({user: req.body, errors: [{message: 'email or password is incorrect'}]});
             }
         });
     });  
