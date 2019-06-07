@@ -19,6 +19,10 @@ router.post('/signup', async (req, res) => {
         errors.push({message: 'Please enter your email'});
     }
 
+    if (!req.body.gender){
+        errors.push({message: 'Please enter your gender'});
+    }
+
     if (!req.body.password){
         errors.push({message: 'Please enter your password'});
     }
@@ -58,6 +62,7 @@ router.post('/signup', async (req, res) => {
         const userData = {
             fullName: req.body.fullName,
             email: req.body.email,
+            gender: req.body.gender,
             password: hash,
         }
 
