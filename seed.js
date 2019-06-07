@@ -92,7 +92,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574735371531455904_thumbnail_600x799.jpg", 
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574735393273404023_thumbnail_600x799.jpg",
         ],
-        price: "US$19.00",
+        price: 19.00,
         oldPrice: "US$35.00",
         description: { 
             Color:	"Multicolor",
@@ -127,7 +127,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/23/1556004705617617302_thumbnail_600x799.jpg", 
         "https://img.ltwebstatic.com/images2_pi/2019/04/23/1556004706337689028_thumbnail_600x799.jpg",
         ],
-        price: " US$17.00",
+        price: 17.00,
         oldPrice: "US$29.00",
         description: {
             Belt:	"Yes",
@@ -161,7 +161,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574795963146244937_thumbnail_600x799.jpg", 
         "https://img.ltwebstatic.com/images2_pi/2019/05/10/15574795953090240605_thumbnail_600x799.jpg",
         ],
-        price: "US$20.00",
+        price: 20.00,
         oldPrice: "US$50.00",
         description: {
             Belt: "Yes",
@@ -195,7 +195,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2018/11/23/1542963274688773605_thumbnail_600x799.jpg", 
         "https://img.ltwebstatic.com/images2_pi/2018/11/23/15429632951582676694_thumbnail_600x799.jpg",
         ],
-        price: "US$18.00",
+        price: 18.00,
         oldPrice: "US$29.00",
         description: {
             Color:	"Black",
@@ -227,7 +227,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images/pi/201711/3f/15107155799685416790_thumbnail_600x.jpg",
         "https://img.ltwebstatic.com/images/pi/201711/f7/15107155809974445619_thumbnail_600x.jpg",
         ],
-        price: "US$18.00",
+        price: 18.00,
         oldPrice: "US$40.00",
         description: {
             Color:	"Black and White",
@@ -258,7 +258,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/02/13/15500417761085936454_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/02/13/15500417781590907709_thumbnail_600x799.jpg",
         ],
-        price: "US$19",
+        price: 19,
         oldPrice: "US$50.00",
         description: {
             Color:	"Blue",
@@ -295,7 +295,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/10/15548913391820620137_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/10/1554891341519892728_thumbnail_600x799.jpg",
         ],
-        price: "US$19.00",
+        price: 19.00,
         oldPrice: "US$40.00",
         description: {
             Color:	"Multicolor",
@@ -329,7 +329,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/09/15573894112686490636_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/05/09/15573894091428556919_thumbnail_600x799.jpg",
         ],
-        price: "US$21.00",
+        price: 21.00,
         oldPrice: "US$35.00",
         description: {
             Color:	"Blue",
@@ -364,7 +364,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/17/15554803652929144599_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/17/15554803664235308493_thumbnail_600x799.jpg",
         ],
-        price: "US$15.00",
+        price: 15.00,
         oldPrice: "US$25.00",
         description: {
             Collar:	"Collar",
@@ -397,7 +397,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/25/15561708032448528925_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/25/15561708083890843504_thumbnail_600x799.jpg",
         ],
-        price: "US$15.00",
+        price: 15.00,
         oldPrice: "US$35.00",
         description: {
             Collar:	"Collar",
@@ -429,7 +429,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/03/14/15525431713655343758_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/03/14/15525431742796453464_thumbnail_600x799.jpg",
         ],
-        price: "US$13.00",
+        price: 13.00,
         oldPrice: "US$29.00",
         description: {
             Color:	"Black",
@@ -460,7 +460,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/02/26/15511518843853402094_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/02/26/1551151886788101134_thumbnail_600x799.jpg",
         ],
-        price: "US$27.00",
+        price: 27.00,
         oldPrice: "US$39.00",
         description: {
             Closure_Type:	"Button Fly",
@@ -492,7 +492,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/08/15546974304135205941_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/08/15546974322481776861_thumbnail_600x799.jpg",
         ],
-        price: "US$26.00",
+        price: 26.00,
         oldPrice: "US$49.00",
         description: {
             Closure_Type:	"Button Fly",
@@ -525,7 +525,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/30/15566088952337386310_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/30/15566088962996116912_thumbnail_600x799.jpg",
         ],
-        price: "US$10.00",
+        price: 10.00,
         oldPrice: "US$25.00",
         description: {
             Color:	"Pink",
@@ -563,7 +563,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/18/15555651293325157043_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/18/1555565130998187229_thumbnail_600x799.jpg",
         ],
-        price: "US$13.00",
+        price: 13.00,
         oldPrice: "US$20.00",
         description: {
             Color:	"Green",
@@ -599,7 +599,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/04/04/15543696593096089178_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/04/04/1554369662532144168_thumbnail_600x799.jpg",
         ],
-        price: "US$11.00",
+        price: 11.00,
         oldPrice: "US$30.00",
         description: {
             Color:	"Navy",
@@ -632,7 +632,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/1557736651521307898_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/1557736652342501241_thumbnail_600x799.jpg",
         ],
-        price: "US$13.00",
+        price: 13.00,
         oldPrice: "US$19.00",
         description: {
             Color:	"Blue",
@@ -665,7 +665,7 @@ const productsData = [
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/155771960838183608_thumbnail_600x799.jpg",
         "https://img.ltwebstatic.com/images2_pi/2019/05/13/1557719609734135649_thumbnail_600x799.jpg",
         ],
-        price: "US$9.00",
+        price: 9.00,
         oldPrice: "US$20.00",
         description: {
             Color:	"Yellow",
@@ -696,7 +696,7 @@ const productsData = [
 const ordersData = [
     {
         product_id:"5cf1ef6341bce436da3c0705",
-        price: "US$13.00",
+        price: 13.00,
         quantiy: "1",
         user_id: "5cf1ef6341bce436da3c06e2",
         address: {
@@ -709,7 +709,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c0701",
-        price: "US$27.00",
+        price: 27.00,
         quantiy: "3",
         user_id: "5cf1ef6341bce436da3c06e3",
         address: {
@@ -722,7 +722,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f9",
-        price: "US$15.00",
+        price: 15.00,
         quantiy: "1",
         user_id: "5cf1ef6341bce436da3c06e4",
         address: {
@@ -735,7 +735,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f8",
-        price: "US$42.00",
+        price: 42.00,
         quantiy: "2",
         user_id: "5cf1ef6341bce436da3c06e5",
         address: "",
@@ -743,7 +743,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f7",
-        price: "US$19.00",
+        price: 19.00,
         quantiy: "1",
         user_id: "5cf1ef6341bce436da3c06e6",
         address: {
@@ -756,7 +756,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f6",
-        price: "US$30.00",
+        price: 30.00,
         quantiy: "3",
         user_id: "5cf1ef6341bce436da3c06e7",
         address: {
@@ -769,7 +769,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f5",
-        price: "US$17.00",
+        price: 17.00,
         quantiy: "1",
         user_id: "5cf1ef6341bce436da3c06e8",
         address: {
@@ -782,7 +782,7 @@ const ordersData = [
     },
     {
         product_id:"5cf1ef6341bce436da3c06f4",
-        price: "US$38.00",
+        price: 38.00,
         quantiy: "2",
         user_id: "5cf1ef6341bce436da3c06e9",
         address: {
