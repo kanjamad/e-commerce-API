@@ -35,7 +35,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -69,7 +70,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -103,7 +105,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -135,7 +138,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -166,7 +170,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -203,7 +208,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -236,7 +242,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -271,7 +278,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3ba",
+        // category_id 1 = women
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     // Men
@@ -305,7 +313,8 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3b9",
+        // category_id 2 = men
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -337,7 +346,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3b9",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -368,7 +377,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3b9",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -400,7 +409,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3b9",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -432,7 +441,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3b9",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     // Kids
@@ -471,7 +480,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3bb",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -507,7 +516,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3bb",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -540,7 +549,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3bb",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -573,7 +582,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3bb",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -604,7 +613,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cfcd1af1fcd993e2dfdd3bb",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
 ]
@@ -630,31 +639,4 @@ db.Product.create(productsData, (err, newProducts) => {
 });
 });
 
-// --------------------- ordersData -----------------------
-// db.Order.deleteMany((err, deletedOrders) => {
-//     if (err) console.log(err);
-//     console.log('Deleted orders successfully');
-
-//     // Create New Orders
-// db.Order.create(ordersData, (err, newOrders) => {
-//     if (err) console.log(err);
-//     console.log(newOrders);
-//     console.log(`Created ${newOrders.length} new orders successfully`);
-//     process.exit();
-// });
-// });
-
-// --------------------- categoryData -----------------------
-// db.Category.deleteMany((err, deletedCategory) => {
-//     if (err) console.log(err);
-//     console.log('Deleted categorys successfully');
-
-//     // Create New Categorys
-// db.Category.create(categoryData, (err, newCategorys) => {
-//     if (err) console.log(err);
-//     console.log(newCategorys);
-//     console.log(`Created ${newCategorys.lenght} new category successfully`);
-//     process.exit();
-// });
-// });
 
