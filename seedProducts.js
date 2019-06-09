@@ -1,88 +1,5 @@
 const db = require('./models');
 
-const usersData = [
-    {
-    fullName: "Leanne Graham",
-    email: "Sincere@april.biz",
-    password:"1234",
-    gender: "Female",
-    joinDate:"1/22/2019",default:Date.now, 
-    },
-    {
-    fullName: "Ervin Howell",
-    email: "Shanna@melissa.tv",
-    password:"1234",
-    gender: "Male",
-    joinDate:"9/6/2018",default:Date.now,
-    
-    },
-
-    {
-    fullName: "Clementine Bauch",
-    email: "Nathan@yesenia.net",
-    password:"1234",
-    gender: "Female",
-    joinDate:"1/2/2019",default:Date.now,
-    
-    },
-    {
-    fullName: "Patricia Lebsack",
-    email: "Julianne.OConner@kory.org",
-    password:"1234",
-    gender: "Female",
-    joinDate:"3/4/2019",default:Date.now,
-    
-    },
-    {
-    
-    fullName: "Chelsey Dietrich",
-    email: "Lucio_Hettinger@annie.ca",
-    password:"1234",
-    gender: "Female",
-    joinDate:"1/27/2019",default:Date.now,
-    
-    },
-    {
-    fullName: "Mrs. Dennis Schulist",
-    email: "Karley_Dach@jasper.info",
-    password:"1234",
-    gender: "Female",
-    joinDate:"5/2/2017",default:Date.now,
-    
-    },
-    {
-    fullName: "Kurtis Weissnat",
-    email: "Telly.Hoeger@billy.biz",
-    password:"1234",
-    gender: "Male",
-    joinDate:"11/2/2018",default:Date.now,
-    
-    },
-    {
-    fullName: "Nicholas Runolfsdottir V",
-    email: "Sherwood@rosamond.me",
-    password:"1234",
-    gender: "Male",
-    joinDate:"12/2/2018",default:Date.now,
-    
-    },
-    {
-    fullName: "Glenna Reichert",
-    email: "Chaim_McDermott@dana.io",
-    password:"1234",
-    gender: "Female",
-    joinDate:"11/2/2017",default:Date.now,
-    },
-    {
-    fullName: "Clementina DuBuque",
-    email: "Rey.Padberg@karina.biz",
-    password:"1234",
-    gender: "Female",
-    joinDate:"8/2/2018",default:Date.now,
-    
-    },
-]
-
 
 const productsData = [
     {
@@ -118,7 +35,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -152,7 +69,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -186,7 +103,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -218,7 +135,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -249,7 +166,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -286,7 +203,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -319,7 +236,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -354,7 +271,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0707",
+        category_id: "5cfcd1af1fcd993e2dfdd3ba",
         add_date: "3/2/2019",default:Date.now,
     },
     // Men
@@ -388,7 +305,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0706",
+        category_id: "5cfcd1af1fcd993e2dfdd3b9",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -420,7 +337,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0706",
+        category_id: "5cfcd1af1fcd993e2dfdd3b9",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -451,7 +368,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0706",
+        category_id: "5cfcd1af1fcd993e2dfdd3b9",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -483,7 +400,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0706",
+        category_id: "5cfcd1af1fcd993e2dfdd3b9",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -515,7 +432,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        category_id: "5cf1ef6341bce436da3c0706",
+        category_id: "5cfcd1af1fcd993e2dfdd3b9",
         add_date: "3/2/2019",default:Date.now,
     },
     // Kids
@@ -554,7 +471,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1ef6341bce436da3c0708",
+        category_id: "5cfcd1af1fcd993e2dfdd3bb",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -590,7 +507,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1ef6341bce436da3c0708",
+        category_id: "5cfcd1af1fcd993e2dfdd3bb",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -623,7 +540,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1ef6341bce436da3c0708",
+        category_id: "5cfcd1af1fcd993e2dfdd3bb",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -656,7 +573,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1ef6341bce436da3c0708",
+        category_id: "5cfcd1af1fcd993e2dfdd3bb",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -687,142 +604,17 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        category_id: "5cf1ef6341bce436da3c0708",
+        category_id: "5cfcd1af1fcd993e2dfdd3bb",
         add_date: "3/2/2019",default:Date.now,
     },
 ]
 
 
-const ordersData = [
-    {
-        product_id:"5cf1ef6341bce436da3c0705",
-        price: 13.00,
-        quantiy: "1",
-        user_id: "5cf1ef6341bce436da3c06e2",
-        address: {
-            street: "Kulas Light",
-            suite: "Apt. 556",
-            city: "Gwenborough",
-            zipcode: "92998-3874",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c0701",
-        price: 27.00,
-        quantiy: "3",
-        user_id: "5cf1ef6341bce436da3c06e3",
-        address: {
-            street: "Victor Plains",
-            suite: "Suite 879",
-            city: "Wisokyburgh",
-            zipcode: "90566-7771",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f9",
-        price: 15.00,
-        quantiy: "1",
-        user_id: "5cf1ef6341bce436da3c06e4",
-        address: {
-            street: "Douglas Extension",
-            suite: "Suite 847",
-            city: "McKenziehaven",
-            zipcode: "59590-4157",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f8",
-        price: 42.00,
-        quantiy: "2",
-        user_id: "5cf1ef6341bce436da3c06e5",
-        address: "",
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f7",
-        price: 19.00,
-        quantiy: "1",
-        user_id: "5cf1ef6341bce436da3c06e6",
-        address: {
-            street: "Hoeger Mall",
-            suite: "Apt. 692",
-            city: "South Elvis",
-            zipcode: "53919-4257",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f6",
-        price: 30.00,
-        quantiy: "3",
-        user_id: "5cf1ef6341bce436da3c06e7",
-        address: {
-            street: "Skiles Walks",
-            suite: "Suite 351",
-            city: "Roscoeview",
-            zipcode: "33263",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f5",
-        price: 17.00,
-        quantiy: "1",
-        user_id: "5cf1ef6341bce436da3c06e8",
-        address: {
-            street: "Norberto Crossing",
-            suite: "Apt. 950",
-            city: "South Christy",
-            zipcode: "23505-1337",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-    {
-        product_id:"5cf1ef6341bce436da3c06f4",
-        price: 38.00,
-        quantiy: "2",
-        user_id: "5cf1ef6341bce436da3c06e9",
-        address: {
-            street: "Rex Trail",
-            suite: "Suite 280",
-            city: "Howemouth",
-            zipcode: "58804-1099",
-        },
-        order_date:  "3/2/2019",default:Date.now,
-    },
-]
-
-const categoryData = [
-    {
-        type: "men",
-    },
-    { 
-        type: "women",
-    }, 
-    {
-        type: "kids"
-    },
-
-]
 
 
 
 // // --------------------- usersData -----------------------
-db.User.deleteMany((err, deletedUsers) => {
-    if (err) console.log(err);
-    console.log('Deleted users successfully');
 
-    //Create New Users
-db.User.create(usersData, (err, newUsers) => {
-    if (err) console.log(err);
-    console.log(newUsers);
-    console.log(`Created ${newUsers.length} new users successfully`);
-    process.exit();
-}); 
-});
 
 // --------------------- productsData -----------------------
 db.Product.deleteMany((err, deletedProducts) => {
@@ -839,30 +631,30 @@ db.Product.create(productsData, (err, newProducts) => {
 });
 
 // --------------------- ordersData -----------------------
-db.Order.deleteMany((err, deletedOrders) => {
-    if (err) console.log(err);
-    console.log('Deleted orders successfully');
+// db.Order.deleteMany((err, deletedOrders) => {
+//     if (err) console.log(err);
+//     console.log('Deleted orders successfully');
 
-    // Create New Orders
-db.Order.create(ordersData, (err, newOrders) => {
-    if (err) console.log(err);
-    console.log(newOrders);
-    console.log(`Created ${newOrders.length} new orders successfully`);
-    process.exit();
-});
-});
+//     // Create New Orders
+// db.Order.create(ordersData, (err, newOrders) => {
+//     if (err) console.log(err);
+//     console.log(newOrders);
+//     console.log(`Created ${newOrders.length} new orders successfully`);
+//     process.exit();
+// });
+// });
 
 // --------------------- categoryData -----------------------
-db.Category.deleteMany((err, deletedCategory) => {
-    if (err) console.log(err);
-    console.log('Deleted categorys successfully');
+// db.Category.deleteMany((err, deletedCategory) => {
+//     if (err) console.log(err);
+//     console.log('Deleted categorys successfully');
 
-    // Create New Categorys
-db.Category.create(categoryData, (err, newCategorys) => {
-    if (err) console.log(err);
-    console.log(newCategorys);
-    console.log(`Created ${newCategorys.lenght} new category successfully`);
-    process.exit();
-});
-});
+//     // Create New Categorys
+// db.Category.create(categoryData, (err, newCategorys) => {
+//     if (err) console.log(err);
+//     console.log(newCategorys);
+//     console.log(`Created ${newCategorys.lenght} new category successfully`);
+//     process.exit();
+// });
+// });
 
