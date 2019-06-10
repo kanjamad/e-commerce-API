@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 // Cors
 const corsOptions = {
-origin: ['http://127.0.0.1:5500', 'https://kanjamad.github.io/app-E-commerce/', 'https://kanjamad-e-commerce-project.netlify.com/'],
+origin: ['http://127.0.0.1:5500', 'https://kanjamad.github.io/app-E-commerce', 'https://kanjamad-e-commerce-project.netlify.com'],
 credentials: true,
 optionsSuccessStatus: 200
 }
