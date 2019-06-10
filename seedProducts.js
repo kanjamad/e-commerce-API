@@ -36,7 +36,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -71,7 +71,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -106,7 +106,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -139,7 +139,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -171,7 +171,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -209,7 +209,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -243,7 +243,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -279,7 +279,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 1 = women
-        category_id: "1",
+        category_id: "5cfcdb3fb9351b456d13bce7",
         add_date: "3/2/2019",default:Date.now,
     },
     // Men
@@ -314,7 +314,7 @@ const productsData = [
             L: "8/10",
         },
         // category_id 2 = men
-        category_id: "2",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -346,8 +346,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        // category_id 2 = men
-        category_id: "2",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -378,8 +377,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        // category_id 2 = men
-        category_id: "2",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -411,8 +409,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        // category_id 2 = men
-        category_id: "2",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -444,8 +441,7 @@ const productsData = [
             M: 6,
             L: "8/10",
         },
-        // category_id 2 = men
-        category_id: "2",
+        category_id: "5cfcdb3fb9351b456d13bce6",
         add_date: "3/2/2019",default:Date.now,
     },
     // Kids
@@ -484,8 +480,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-        // category_id 3 = kids
-        category_id: "3",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -521,8 +516,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-         // category_id 3 = kids
-        category_id: "3",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -555,8 +549,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-         // category_id 3 = kids
-        category_id: "3",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -589,8 +582,7 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-         // category_id 3 = kids
-        category_id: "3",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
     {
@@ -621,14 +613,16 @@ const productsData = [
             L: "8Y",
             XL: "9Y",
         },
-         // category_id 3 = kids
-        category_id: "3",
+        category_id: "5cfcdb3fb9351b456d13bce8",
         add_date: "3/2/2019",default:Date.now,
     },
 ]
 
 
 
+
+
+// // --------------------- usersData -----------------------
 
 
 // --------------------- productsData -----------------------
